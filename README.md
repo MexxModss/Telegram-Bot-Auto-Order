@@ -69,75 +69,6 @@ Requirements
 - Telegram Owner ID
 - Lz Pedia API Key (for Auto QRIS)
 
-Installation
-
-1. Clone Repository
-
-git clone YOUR_REPOSITORY_URL
-
-2. Enter Project Directory
-
-cd Digital-Order
-
-3. Install Dependencies
-
-npm install
-
-4. Configure Bot
-
-Open "config.js" and configure the following:
-
-module.exports = {
-  token_Bot: 'YOUR_BOT_TOKEN',
-  owner_Id: 'YOUR_TELEGRAM_ID',
-  botname: 'Digital Store',
-  version: '1.0.0',
-  saluran1: {
-    text: 'Testimoni',
-    url: 'https://t.me/mexxoffc'
-  },
-  saluran2: {
-    text: 'Informasi',
-    url: 'https://t.me/mexxhacking'
-  },
-  lzpediaApiKey: 'YOUR_API_KEY'
-};
-
-5. Start Bot
-
-npm start
-
-Project Structure
-
-Digital-Order/
-│
-├── config.js
-├── index.js
-├── package.json
-│
-├── database/
-│   ├── orders.json
-│   ├── payment_methods.json
-│   ├── products.json
-│   └── store_settings.json
-│
-├── lib/
-│   ├── database.js
-│   ├── payment.js
-│   └── utils.js
-│
-├── media/
-│   └── store_banner.png
-│
-├── plugins/
-│   └── digital_store.js
-│
-└── product_files/
-
-Configuration
-
-Payment settings can be managed through the Owner Panel.
-
 Available settings:
 
 - Configure Auto QRIS API Key.
@@ -157,7 +88,7 @@ Technologies
 Developer
 
 Created by: MexxTampan
-GitHub: "@MexxModss" (https://github.com/MexxModss)
+GitHub: https://github.com/MexxModss
 
 License
 
